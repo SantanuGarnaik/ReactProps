@@ -1,11 +1,14 @@
 import React from "react";
-import Parent from "./Parent";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div>
-      <h2>App</h2>
-      <Parent/>
+    <div style={{fontFamily:"'Poppins', sans-serif"}}>
+      <Header/>
+      <Body/>
+      <Footer/>
     </div>
   );
 };
