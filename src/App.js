@@ -1,16 +1,13 @@
-import React from "react";
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import Calc from "./Calc";
 
-const App = () => {
+function App() {
+
   return (
-    <div style={{fontFamily:"'Poppins', sans-serif"}}>
-      <Header/>
-      <Body/>
-      <Footer/>
+    <div>
+      {/* <h2>App</h2> */}
+      <Calc/>
     </div>
   );
-};
+}
 
 export default App;
